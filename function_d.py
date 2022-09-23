@@ -7,6 +7,7 @@ def max_value(numbers):
         if number > maximum_result:
             maximum_result = number
             
+    return maximum_result
 
 
 if __name__ == "__main__":
