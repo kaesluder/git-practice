@@ -3,12 +3,13 @@ def max_value(numbers):
         in the list.
     """
     print("This is Adelle's change")
-    largest_number = 0
-    for num in numbers:
-        if num > largest_number:
-            largest_number = num
-    
-    return largest_number
+    maximum_result = numbers[0]
+    for number in numbers:
+        if number > maximum_result:
+            maximum_result = number
+            
+    return maximum_result
+
 
 
 if __name__ == "__main__":
